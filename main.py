@@ -13,30 +13,30 @@ pygame.display.set_caption("Escape From Earth")
 # Images
 clock = pygame.time.Clock()
 display = pygame.display.set_mode((WIDTH, HEIGHT))
-bg = pygame.image.load("bckg2.png")
+bg = pygame.image.load("Images/bckg2.png")
 bg = pygame.transform.scale(bg, (WIDTH,HEIGHT))
-sky = pygame.image.load("sky.png")
+sky = pygame.image.load("Images/sky.png")
 sky = pygame.transform.scale(sky, (WIDTH,HEIGHT))
-menu_bg = pygame.image.load("menu_bg.png")
+menu_bg = pygame.image.load("Images/menu_bg.png")
 menu_bg = pygame.transform.scale(menu_bg, (WIDTH, HEIGHT))
 
-menu_btn1 = pygame.image.load("start_btn.png")
-menu_btn2 = pygame.image.load("start_btn.png")
+menu_btn1 = pygame.image.load("Images/start_btn.png")
+menu_btn2 = pygame.image.load("Images/start_btn.png")
 
-playeSprite = [pygame.image.load("gemi1.png"),
-pygame.image.load("pckg1.png"),
-pygame.image.load("pckg2.png"),
-pygame.image.load("Shuttle.png")]
+playeSprite = [pygame.image.load("Images/gemi1.png"),
+pygame.image.load("Images/pckg1.png"),
+pygame.image.load("Images/pckg2.png"),
+pygame.image.load("Images/Shuttle.png")]
 
-engine = [pygame.image.load(f"{i}.png") for i in range(1,5)]
+engine = [pygame.image.load(f"Images/{i}.png") for i in range(1,5)]
 print(engine)
 engine = [pygame.transform.scale(engine[i],(25,25)) for i in range(0,4)]
 
-asteroid_img = pygame.image.load("meteorBig.png")
+asteroid_img = pygame.image.load("Images/meteorBig.png")
 asteroid_img = pygame.transform.scale(asteroid_img, (50 ,50))
 
 # Sounds
-bg_music = pygame.mixer.music.load("bg_music.mp3")
+bg_music = pygame.mixer.music.load("audio/bg_music.mp3")
 
 pygame.display.flip()
 
