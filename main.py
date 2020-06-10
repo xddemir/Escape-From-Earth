@@ -29,13 +29,12 @@ pygame.image.load("Images/pckg2.png"),
 pygame.image.load("Images/Shuttle.png")]
 
 engine = [pygame.image.load(f"Images/{i}.png") for i in range(1,5)]
-print(engine)
 engine = [pygame.transform.scale(engine[i],(25,25)) for i in range(0,4)]
 
 asteroid_img = pygame.image.load("Images/meteorBig.png")
 asteroid_img = pygame.transform.scale(asteroid_img, (50 ,50))
 
-# Sounds
+# Sound
 bg_music = pygame.mixer.music.load("audio/bg_music.mp3")
 
 pygame.display.flip()
