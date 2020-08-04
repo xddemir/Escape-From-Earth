@@ -1,15 +1,21 @@
 # Escape From Earth
 
+it's my first game with pygame which developed in 24 hours for global game jam held online. Therefore it has some issues and bugs. If you would like to contribute or play feel free to do so.
 
-### it's my first game with pygame therefore it has a few issues and bugs then if you want you can download and play or develop (Python 3.8.3)
+[<img src="Images/re2.png" width="400"/>](image.png)
+[<img src="Images/re1.png" width="400"/>](image.png)
 
-<img src="Images/re1.png" width="400"> <img src="Images/re2.png" width="400">
+## Requirements
 
-thanks to [Gerile3](https://t.me/gerile3) for contributions 
+* Python 3.8+
+* Pygame 1.9.6+
 
-# Touch
+You can watch demo here: [Youtube](https://www.youtube.com/watch?v=va2dlf-xPAk)
 
-E-Mail : slayerdogukan@hotmail.com
+Thanks [Gerile3](https://github.com/Gerile3) for contributions.
 
-Telegram :[Telegram](https://t.me/penguinz00)
+## Touch
 
+E-Mail: slayerdogukan@hotmail.com
+
+Telegram: [Telegram](https://t.me/penguinz00)
